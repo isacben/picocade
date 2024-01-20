@@ -1,0 +1,7 @@
+*.kicad_prl
+*.kicad_sch.lck
+\#auto_saved_files\#
+*-backups
+
+.DS_Store
+*.swp
