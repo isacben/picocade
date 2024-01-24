@@ -21,3 +21,13 @@ Notes:
 - [Import KiCad symbols to the global library](https://forum.kicad.info/t/copying-new-symbols-from-one-project-to-another/36338/4)
 
 ## Firmware
+
+Download CircuitPython for the Raspberry Pi Pico W here:
+
+https://circuitpython.org/board/raspberry_pi_pico_w/
+
+Download the CircuitPython libraries bundle from here:
+
+https://circuitpython.org/libraries
+
+Copy the [firmware/code.py](https://github.com/isacben/picocade/blob/main/firmware/code.py) file to the Rasberry Pi board.
