@@ -20,6 +20,8 @@ Notes:
 - [Download the Raspberry Pi Pico KiCad symbol](https://forums.raspberrypi.com/viewtopic.php?t=336825)
 - [Import KiCad symbols to the global library](https://forum.kicad.info/t/copying-new-symbols-from-one-project-to-another/36338/4)
 
+![picocade schematics](https://github.com/isacben/picocade/blob/main/img/schematic.png)
+
 ## Firmware
 
 Download CircuitPython for the Raspberry Pi Pico W here:
