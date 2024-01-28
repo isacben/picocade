@@ -1,6 +1,8 @@
 # picocade
 
-Arcade controller for the pico-8 fantasy console.
+An arcade controller for the pico-8 fantasy console.
+
+NOTE: this is Work In Progress! I am still designing the product.
 
 ## Bill Of Materials
 
