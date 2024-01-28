@@ -4,7 +4,7 @@ An arcade controller for the pico-8 fantasy console.
 
 NOTE: this is Work In Progress! I am still designing the product; the following image is the idea of what I want to build:
 
-![PICO-8 arcade controller concept](https://github.com/isacben/picocade/blob/main/img/concept.png)
+![PICO-8 arcade controller concept](https://github.com/isacben/picocade/blob/main/img/concept.png | width=400)
 
 ## Bill Of Materials
 
@@ -28,7 +28,7 @@ Notes:
 - [Download the Raspberry Pi Pico KiCad symbol](https://forums.raspberrypi.com/viewtopic.php?t=336825)
 - [Import KiCad symbols to the global library](https://forum.kicad.info/t/copying-new-symbols-from-one-project-to-another/36338/4)
 
-![picocade schematics](https://github.com/isacben/picocade/blob/main/img/schematic.png)
+![picocade schematics](https://github.com/isacben/picocade/blob/main/img/schematic.png | width=400)
 
 ## Firmware
 
