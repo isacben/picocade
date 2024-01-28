@@ -28,7 +28,7 @@ Notes:
 - [Download the Raspberry Pi Pico KiCad symbol](https://forums.raspberrypi.com/viewtopic.php?t=336825)
 - [Import KiCad symbols to the global library](https://forum.kicad.info/t/copying-new-symbols-from-one-project-to-another/36338/4)
 
-<img alt="Schematics" src="https://github.com/isacben/picocade/blob/main/img/schematic.png" width="400">
+![Schematics](https://github.com/isacben/picocade/blob/main/img/schematic.png)
 
 ## Firmware
 
