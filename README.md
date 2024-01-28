@@ -2,18 +2,24 @@
 
 An arcade controller for the pico-8 fantasy console.
 
-NOTE: this is Work In Progress! I am still designing the product.
+NOTE: this is Work In Progress! I am still designing the product; the following image is the idea of what I want to build:
+
+![PICO-8 arcade controller concept](https://github.com/isacben/picocade/blob/main/img/concept.png)
 
 ## Bill Of Materials
 
 | Item | Count | Cost | Vendor |
 | ---- | ----- | ---- | ------ |
-| Stick | 1 | $28.00 | Link |
+| Joystick | 1 | $28.00 | Link |
 | Arcade buttons | 4 | $22.00 | Link |
 | Led | 1 | $0.20 | Link |
 | Resistor | 1 | $0.20 | Link |
 | Raspberry Pi Pico | 1 | $6 | Link |
 | Enclosure | 1 | $25.00 | Link |
+| Solderable breadboard | 1 | $1.50 | Link |
+| USB adapter | 1 | $8.00 | Link |
+| Short USB cable | 1 | $6.99 | Link |
+| Longer USB cable | 1 | $12.00 | Link | 
 
 ## Schematics
 
