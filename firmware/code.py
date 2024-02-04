@@ -8,42 +8,31 @@ from adafruit_hid.keycode import Keycode
 # Set up a keyboard device.
 kbd = Keyboard(usb_hid.devices)
 
-x = digitalio.DigitalInOut(board.GP16)
-x.direction = digitalio.Direction.INPUT
-x.pull = digitalio.Pull.DOWN
+pins = (
+    board.GP1,
+    board.GP2,
+    board.GP3,
+    board.GP4,
+    board.GP16,
+    board.GP17)
+keys = [
+    Keycode.UP_ARROW,
+    Keycode.DOWN_ARROW,
+    Keycode.LEFT_ARROW,
+    Keycode.RIGHT_ARROW,
+    Keycode.X,
+    Keycode.Z
+]
 
-z = digitalio.DigitalInOut(board.GP17)
-z.direction = digitalio.Direction.INPUT
-z.pull = digitalio.Pull.DOWN
-
-up = digitalio.DigitalInOut(board.GP1)
-up.direction = digitalio.Direction.INPUT
-up.pull = digitalio.Pull.DOWN
-
-down = digitalio.DigitalInOut(board.GP2)
-down.direction = digitalio.Direction.INPUT
-down.pull = digitalio.Pull.DOWN
-
-left = digitalio.DigitalInOut(board.GP3)
-left.direction = digitalio.Direction.INPUT
-left.pull = digitalio.Pull.DOWN
-
-right = digitalio.DigitalInOut(board.GP4)
-right.direction = digitalio.Direction.INPUT
-right.pull = digitalio.Pull.DOWN
+buttons = [digitalio.DigitalInOut(pin) for pin in pins]
+for button in buttons:
+    button.direction = digitalio.Direction.INPUT
+    button.pull = digitalio.Pull.UP
 
 while True:
-    if up.value:
-        kbd.send(Keycode.UP_ARROW)
-    elif down.value:
-        kbd.send(Keycode.DOWN_ARROW)
-    elif left.value:
-        kbd.send(Keycode.LEFT_ARROW)
-    elif right.value:
-        kbd.send(Keycode.RIGHT_ARROW)
-    elif x.value:
-        kbd.send(Keycode.X)
-    elif z.value:
-        kbd.send(Keycode.Z)
-
+    for i, button in enumerate(buttons):
+        if button.value:
+            kbd.release(keys[i])
+        else:
+            kbd.press(keys[i])
     time.sleep(0.1)
