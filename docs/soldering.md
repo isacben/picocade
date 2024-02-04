@@ -1,0 +1,1 @@
+Solder the components
