@@ -1,7 +1,7 @@
 # Bill Of Materials (BOM)
 
 | | Item | Count | Cost | Vendor |
-| | ---- | ----- | ---- | ------ |
+|-| ---- | ----- | ---- | ------ |
 | | Raspberry Pi Pico | 1 | $6 | Link |
 | | Enclosure | 1 | $25.00 | Link |
 | | Joystick | 1 | $28.00 | Link |
