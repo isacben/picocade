@@ -520,10 +520,6 @@
     (stroke (width 0) (type default))
     (uuid 46dfe54b-65b5-4296-9144-a76dda48ee53)
   )
-  (wire (pts (xy 185.42 130.81) (xy 185.42 132.08))
-    (stroke (width 0) (type default))
-    (uuid 4a23937a-cfa4-479c-9cec-de17c8d90e65)
-  )
   (wire (pts (xy 137.16 113.03) (xy 127 113.03))
     (stroke (width 0) (type default))
     (uuid 570cf303-cc46-4cee-ad15-8cdd0d521b4b)
@@ -588,17 +584,25 @@
     (stroke (width 0) (type default))
     (uuid a55121b8-75c6-4728-a7e6-4543ebb7086a)
   )
-  (wire (pts (xy 172.72 115.57) (xy 185.42 115.57))
-    (stroke (width 0) (type default))
-    (uuid b25153ec-9800-4aca-b464-d86e9e0ec47e)
-  )
   (wire (pts (xy 186.69 90.17) (xy 190.5 90.17))
     (stroke (width 0) (type default))
     (uuid b73977ee-b095-46d1-a73a-2537d5e200b3)
   )
+  (wire (pts (xy 185.42 129.54) (xy 185.42 132.08))
+    (stroke (width 0) (type default))
+    (uuid b873264e-a1ad-48ef-b1f7-f4483128eb2c)
+  )
   (wire (pts (xy 127 82.55) (xy 127 102.87))
     (stroke (width 0) (type default))
     (uuid b88dc67d-f159-4d6b-b0a0-11d671afb3fe)
+  )
+  (wire (pts (xy 172.72 115.57) (xy 185.42 115.57))
+    (stroke (width 0) (type default))
+    (uuid be005784-1b65-47cb-8cb8-e6aa9947f492)
+  )
+  (wire (pts (xy 185.42 121.92) (xy 185.42 123.19))
+    (stroke (width 0) (type default))
+    (uuid c4e5e049-9b63-4721-919b-d61402096db3)
   )
   (wire (pts (xy 182.88 105.41) (xy 182.88 77.47))
     (stroke (width 0) (type default))
@@ -847,7 +851,7 @@
     (property "Datasheet" "" (at 209.55 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b0f00132-3ac3-4787-ba8d-b0bcdb5eb1b2))
+    (pin "1" (uuid b0f00132-3ac3-4787-ba8d-b0bcdb5eb1b3))
     (instances
       (project "picocade"
         (path "/656edadf-fba5-4410-a1d5-b67258c8886b"
@@ -935,19 +939,19 @@
     )
   )
 
-  (symbol (lib_id "Device:LED") (at 185.42 119.38 90) (unit 1)
+  (symbol (lib_id "Device:LED") (at 185.42 125.73 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bad90602-2d47-42a9-8b1e-fbd3a3c1d766)
-    (property "Reference" "D1" (at 193.04 120.9675 0)
+    (property "Reference" "D1" (at 193.04 127.3175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "LED" (at 189.23 120.9675 90)
+    (property "Value" "LED" (at 189.23 127.3175 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 185.42 119.38 0)
+    (property "Footprint" "" (at 185.42 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 185.42 119.38 0)
+    (property "Datasheet" "~" (at 185.42 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1ce88670-f70b-49e9-b70c-552d4ca3ad48))
@@ -1001,7 +1005,7 @@
     (property "Datasheet" "" (at 209.55 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b0f00132-3ac3-4787-ba8d-b0bcdb5eb1b2))
+    (pin "1" (uuid b0f00132-3ac3-4787-ba8d-b0bcdb5eb1b4))
     (instances
       (project "picocade"
         (path "/656edadf-fba5-4410-a1d5-b67258c8886b"
@@ -1026,7 +1030,7 @@
     (property "Datasheet" "" (at 209.55 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b0f00132-3ac3-4787-ba8d-b0bcdb5eb1b2))
+    (pin "1" (uuid b0f00132-3ac3-4787-ba8d-b0bcdb5eb1b5))
     (instances
       (project "picocade"
         (path "/656edadf-fba5-4410-a1d5-b67258c8886b"
@@ -1077,7 +1081,7 @@
     (property "Datasheet" "" (at 101.6 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b230db30-435e-4659-98ca-9d88323c8b54))
+    (pin "1" (uuid b230db30-435e-4659-98ca-9d88323c8b55))
     (instances
       (project "picocade"
         (path "/656edadf-fba5-4410-a1d5-b67258c8886b"
@@ -1102,7 +1106,7 @@
     (property "Datasheet" "" (at 101.6 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b230db30-435e-4659-98ca-9d88323c8b54))
+    (pin "1" (uuid b230db30-435e-4659-98ca-9d88323c8b56))
     (instances
       (project "picocade"
         (path "/656edadf-fba5-4410-a1d5-b67258c8886b"
@@ -1138,19 +1142,19 @@
     )
   )
 
-  (symbol (lib_id "Device:R_US") (at 185.42 127 180) (unit 1)
+  (symbol (lib_id "Device:R_US") (at 185.42 119.38 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f8987659-9a7c-444f-bb44-fb5a42a541df)
-    (property "Reference" "R1" (at 179.07 127 90)
+    (property "Reference" "R1" (at 179.07 119.38 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "50-330 ohms" (at 187.96 127 0)
+    (property "Value" "50-330 ohms" (at 187.96 119.38 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 184.404 126.746 90)
+    (property "Footprint" "" (at 184.404 119.126 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 185.42 127 0)
+    (property "Datasheet" "~" (at 185.42 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f8c3fde2-57f7-4d17-ba35-37cc94a39a31))
@@ -1205,7 +1209,7 @@
     (property "Datasheet" "" (at 101.6 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b230db30-435e-4659-98ca-9d88323c8b54))
+    (pin "1" (uuid b230db30-435e-4659-98ca-9d88323c8b57))
     (instances
       (project "picocade"
         (path "/656edadf-fba5-4410-a1d5-b67258c8886b"

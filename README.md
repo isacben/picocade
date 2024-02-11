@@ -6,14 +6,11 @@ NOTE: this is Work In Progress! I am still designing the product; the following 
 
 <img alt='PICO-8 arcade controller concept' src='https://github.com/isacben/picocade/blob/main/img/concept.png' width='500'>
 
-## Schematics
+## Documentation 
 
-Notes:
+The list of parts (BOM) and the guide to build this arcade controller is here:
 
-- [Download the Raspberry Pi Pico KiCad symbol](https://forums.raspberrypi.com/viewtopic.php?t=336825)
-- [Import KiCad symbols to the global library](https://forum.kicad.info/t/copying-new-symbols-from-one-project-to-another/36338/4)
-
-![Schematics](https://github.com/isacben/picocade/blob/main/img/schematic.png)
+[https://github.com/isacben/picocade/tree/main/docs](https://github.com/isacben/picocade/tree/main/docs)
 
 ## Firmware
 
