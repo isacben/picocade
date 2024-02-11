@@ -12,6 +12,12 @@ The list of parts (BOM) and the guide to build this arcade controller is here:
 
 [https://github.com/isacben/picocade/tree/main/docs](https://github.com/isacben/picocade/tree/main/docs)
 
+1. [Check the Bill Of Materials (list of parts)](BOM.md)
+2. [Solder the components](soldering.md)
+3. [Install CircuitPython](circuitpython.md)
+4. [Install the software](software.md)
+5. [Assambly the box](box.md)
+
 ## Firmware
 
 Download CircuitPython for the Raspberry Pi Pico W here:

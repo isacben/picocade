@@ -1,6 +1,6 @@
 # picocade documentation
 
-## Assembly(en)
+## Assembly (en)
 
 1. [Check the Bill Of Materials (list of parts)](BOM.md)
 2. [Solder the components](soldering.md)

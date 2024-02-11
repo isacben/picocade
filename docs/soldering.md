@@ -13,6 +13,6 @@ Otherwise, this schematic shows the connections:
 
 ## Prototyping
 
-You might want to test your circuit on a bread board:
+You might want to test your circuit on a breadboard:
 
-![Schematics](https://github.com/isacben/picocade/blob/main/img/prototype.png)
+![Breadboard](https://github.com/isacben/picocade/blob/main/img/prototype.png)
