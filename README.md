@@ -14,11 +14,11 @@ The list of parts (BOM) and the guide to build this arcade controller is here:
 
 [https://github.com/isacben/picocade/tree/main/docs](https://github.com/isacben/picocade/tree/main/docs)
 
-1. [Check the Bill Of Materials (list of parts)](https://github.com/isacben/picocade/blob/main/BOM.md)
-2. [Solder the components](https://github.com/isacben/picocade/blob/main/soldering.md)
-3. [Install CircuitPython](https://github.com/isacben/picocade/blob/main/circuitpython.md)
-4. [Install the software](https://github.com/isacben/picocade/blob/main/software.md)
-5. [Assambly the box](https://github.com/isacben/picocade/blob/main/box.md)
+1. [Check the Bill Of Materials (list of parts)](https://github.com/isacben/picocade/blob/main/docs/BOM.md)
+2. [Solder the components](https://github.com/isacben/picocade/blob/main/docs/soldering.md)
+3. [Install CircuitPython](https://github.com/isacben/picocade/blob/main/docs/circuitpython.md)
+4. [Install the software](https://github.com/isacben/picocade/blob/main/docs/software.md)
+5. [Assambly the box](https://github.com/isacben/picocade/blob/main/docs/box.md)
 
 ## Firmware
 
