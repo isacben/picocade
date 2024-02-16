@@ -1,4 +1,4 @@
-# Solder the components
+# Hardware 
 
 ## Schematics
 
@@ -16,6 +16,9 @@ Otherwise, this schematic shows the connections:
 You might want to test your circuit on a breadboard:
 
 ![Breadboard](https://github.com/isacben/picocade/blob/main/img/prototype.jpg)
+
+> **Note**
+> At this point, it is a good idea to skip the soldering part and [install CircuitPython](https://github.com/isacben/picocade/blob/main/docs/circuitpython.md) and the [picocade code](https://github.com/isacben/picocade/blob/main/docs/software.md) to test if everything works with PICO-8. Once you pass this test, you can start the soldering.
 
 ## Soldering
 
