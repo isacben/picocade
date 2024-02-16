@@ -1,6 +1,6 @@
 # picocade
 
-An arcade controller for the pico-8 fantasy console.
+An arcade controller for the pico-8 fantasy console powered by a Raspberry Pi Pico and CircuitPython.
 
 > [!WARNING]
 > This is Work In Progress! I am still designing the product; the following image is the vision of what I want to build.
