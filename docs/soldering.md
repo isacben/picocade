@@ -16,3 +16,7 @@ Otherwise, this schematic shows the connections:
 You might want to test your circuit on a breadboard:
 
 ![Breadboard](https://github.com/isacben/picocade/blob/main/img/prototype.jpg)
+
+## Soldering
+
+The final board is just a replica of the circuit in the breadboard:

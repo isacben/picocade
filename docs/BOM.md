@@ -6,6 +6,8 @@
 | | Enclosure | 1 | $25.00 | Link |
 | | Joystick | 1 | $28.00 | Link |
 | | Arcade buttons | 4 | $22.00 | Link |
+| | Female pin header strips | 2 | $1.00 | Link |
+| | Male pin header strips | 2 | $1.00 | Link |
 | | Led | 1 | $0.20 | Link |
 | | Resistor | 1 | $0.20 | Link |
 | | Solderable breadboard | 1 | $1.50 | Link |
