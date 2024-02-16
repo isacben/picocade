@@ -10,9 +10,9 @@ NOTE: this is Work In Progress! I am still designing the product; the following 
 
 ## Documentation 
 
-The list of parts (BOM) and the guide to build this arcade controller is here:
+The list of parts (BOM) and the guide to build this arcade controller are here:
 
-[https://github.com/isacben/picocade/tree/main/docs](https://github.com/isacben/picocade/tree/main/docs)
+[Documentation](https://github.com/isacben/picocade/blob/main/docs/README.md):
 
 1. [Check the Bill Of Materials (list of parts)](https://github.com/isacben/picocade/blob/main/docs/BOM.md)
 2. [Solder the components](https://github.com/isacben/picocade/blob/main/docs/soldering.md)
