@@ -26,8 +26,8 @@ pins = (
 keys = [
     Keycode.UP_ARROW,
     Keycode.DOWN_ARROW,
-    Keycode.LEFT_ARROW,
     Keycode.RIGHT_ARROW,
+    Keycode.LEFT_ARROW,
     Keycode.X,
     Keycode.Z,
     SPLORE,
