@@ -2,7 +2,7 @@
 
 |   | Item | Count | Cost | Vendor |
 | - | ---- | ----- | ---- | ------ |
-| <img alt='Raspberry Pi Pico' src='https://github.com/isacben/picocade/blob/main/img/parts/raspberry-pi-pico.png' width='300'>| Raspberry Pi Pico | 1 | $6 | Link |
+| ![Raspberry Pi Pico](https://github.com/isacben/picocade/blob/main/img/parts/raspberry-pi-pico.png) | Raspberry Pi Pico | 1 | $6 | Link |
 | ![Joystick](https://github.com/isacben/picocade/blob/main/img/parts/joystick.png) | Joystick | 1 | $28.00 | Link |
 | ![Arcade buttons](https://github.com/isacben/picocade/blob/main/img/parts/arcade-button.png) | Arcade buttons | 4 | $22.00 | Link |
 | ![Female pin header strip](https://github.com/isacben/picocade/blob/main/img/parts/female-pin-headers.png) | Female pin header strips | 2 | $1.00 | Link |
